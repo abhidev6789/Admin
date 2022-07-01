@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhi.adminside">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Admin">
+
+        <activity
+            android:name="com.abhi.adminside.notice.UploadNotice"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.MainActivity"/>
+
+        <activity
+            android:name="com.abhi.adminside.image.UploadImage"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.MainActivity"/>
+
+        <activity
+            android:name="com.abhi.adminside.ebook.UploadPdfActivity"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.MainActivity"/>
+
+
+        <activity
+            android:name="com.abhi.adminside.notice.DeleteNoticeActivity"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.MainActivity"/>
+
+        <activity
+            android:name="com.abhi.adminside.slapp.teacher.Uploadfaculty"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.MainActivity"/>
+        <activity
+            android:name="com.abhi.adminside.slapp.teacher.UpdateTeacherActivity"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.slapp.teacher.Uploadfaculty"/>
+        <activity
+            android:name="com.abhi.adminside.slapp.teacher.AddTeacher"
+            android:exported="true"
+            android:parentActivityName="com.abhi.adminside.slapp.teacher.Uploadfaculty"/>
+        <activity
+            android:name="com.abhi.adminside.slapp.SlappScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.abhi.adminside.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.abhi.adminside.auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

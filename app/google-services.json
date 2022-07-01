@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "284960614302",
+    "firebase_url": "https://mad-college-app-default-rtdb.firebaseio.com",
+    "project_id": "mad-college-app",
+    "storage_bucket": "mad-college-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284960614302:android:27b9fa9223366b495ed88f",
+        "android_client_info": {
+          "package_name": "com.abhi.adminside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284960614302-hegku41dt46h0s0m51l03t6ft3p4iaoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRWnrpNA_5rxB0j6Bis24r6L9EmngZ3Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284960614302-hegku41dt46h0s0m51l03t6ft3p4iaoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
